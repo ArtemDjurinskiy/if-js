@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>if</title>
+    
+</head>
+<body>
+    <h1>write a magic word</h1>
+
+    <input type="text" id="text"><button id="button">OK</button>
+
+    <script type="text/javascript">
+       document.getElementById("button").onclick = function(){
+           if (document.getElementById("text").value == "abra") {
+               alert("You viner!")
+           } else {
+               alert("You fail!")
+           }
+       }
+    </script>
+</body>
+</html>
